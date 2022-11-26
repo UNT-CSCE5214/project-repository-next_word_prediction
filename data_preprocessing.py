@@ -5,7 +5,6 @@ from nltk.tokenize import word_tokenize
 print("Creating token of words:")
 
 
-#Sample text for testing the methods
 text="I am Dileep Reddy from Team10 and I wrote this code"
 tokenize_word=word_tokenize(text)
 print(tokenize_word)
