@@ -1,0 +1,19 @@
+{
+  "name": "next-word-predictor-using-lstm",
+  "version": "1.0.0",
+  "description": "Next Word Predictor",
+  "main": "app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvaj77/next-word-predictor-using-LSTM.git"
+  },
+  "author": "Team 10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvaj77/next-word-predictor-using-LSTM/issues"
+  },
+  "homepage": "https://github.com/atharvaj77/next-word-predictor-using-LSTM#readme"
+}
