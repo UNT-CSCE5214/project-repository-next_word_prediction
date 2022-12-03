@@ -57,5 +57,14 @@ with open('tokenizer.pickle','rb') as handle:
     
 @app.route('/prediction',methods=['POST','GET'])
 
+def prediction():
+    
+    content = {}
+    
+    content['text'] = session['text']
+    results = get_words(user_tokenizer,user_model,content)
+    
+    return render_template('prediction.html',results=results)
+
 if __name__ == "__main__":
     app.run(debug=True)
